@@ -1,0 +1,373 @@
+h2 {
+  padding: 0px;
+  margin-top: 0px;
+  font-size: 20px;
+  color: rgb(255, 76, 150);
+  text-align: center;
+  margin-top: 1px;
+  z-index: 1;
+}
+
+.box {
+  position: absolute;
+  height: 200px;
+  width: 179.5px;
+  margin: 10px;
+  z-index: 1;
+}
+
+.box2 {
+  height: 200px;
+  width: 179.5px;
+  margin: 10px;
+}
+
+.box3 {
+  height: 200px;
+  width: 179.5px;
+  margin: 10px;
+}
+.box4 {
+  height: 200px;
+  width: 179.5px;
+  margin: 10px;
+}
+.box5 {
+  height: 200px;
+  width: 179.5px;
+  margin: 10px;
+}
+.box6 {
+  height: 200px;
+  width: 179.5px;
+  margin: 10px;
+}
+
+ .container {
+   overflow: auto;
+   width: 260PX;
+   margin-left: 0px;
+   margin-right: 0px;
+ }
+
+ .phone {
+  position: absolute;
+  z-index: 1;
+  width: 400px; 
+  height: 932px;
+  background-color: #fcdce9;
+  border-radius: 50px;
+}
+
+
+ .container3 {
+  position: absolute;
+  width: 400px;
+  display: grid;           /* Enables grid layout */
+  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  background-image:url(bg.jpg);
+  z-index: 1;
+}
+
+
+ .container2 {
+   background-image: url('love.png'); /* Path to your image */
+   background-size: 400px 200px; /* Make the image cover the entire container */
+   background-position: center; /* Center the image in the container */
+   background-repeat: no-repeat; /* Prevent the image from repeating */
+   padding: 0px;
+   width: 400px;
+   height: 140px;
+   border-radius: 30px;
+   margin-left:0px;
+   margin-right:0px;
+ }
+
+ .image-head {
+  padding: 0px;
+  width: 400px;
+  height: 140px;
+  border-radius: 30px;
+  margin-left:0px;
+  margin-right:0px;
+}
+
+ .right-image {
+   float:right;
+   margin-top: 42px;
+   margin-left:0px;
+   margin-right:10px;
+   border-radius: 10px;
+   padding: 0px;
+   width: 60px; /* Adjust size as needed */
+   box-shadow: 3px 3px 15px rgb(255, 100, 90, 10);
+ }
+
+ .left-image {
+   float: left;
+   margin-top: 42px;
+   margin-left: 10px;
+   margin-right: 0px;
+   border-radius: 10px;
+   padding: 0px;
+   width: 60px; /* Adjust size as needed */
+   box-shadow: 3px 3px 15px rgb(255, 100, 90, 10);
+ }
+
+.images {
+  height: 158px;
+  width: 140px;
+  margin-left: 5px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.images2 {
+  height: 158px;
+  width: 140px;
+  margin-left: 30px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.text-container {
+      width: 230px;
+      height: 65px;
+      background-color: rgb(255, 202, 202);
+      border: 5px solid rgb(255, 51, 51);
+      border-radius: 25px;
+      color: white;
+      cursor: pointer;
+      margin: 5px;
+      margin-top: 30px;
+      margin-bottom: 0px;
+      transition: 400ms;
+      float: center;
+      padding: 5px;
+   }
+
+   p {
+      color: #a7008b;
+      font-size: 15px;
+      font-family: 'Lucida Sans', sans-serif;
+      padding: 0px;
+      margin-top: 0px;
+      font-weight: bold ;
+      text-align: center;
+   }
+
+ .gradient-text {
+   font-size: 30px;
+   font-family: Georgia, serif;
+   padding: 5px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   font-weight: bold;
+   text-align: center;
+   background: linear-gradient(to right, #ff4111, #871fff, #ff1c1c);
+   background-clip: text;
+   color: transparent;
+   ;
+ }
+
+body {
+   margin: 0;
+   padding: 0px;
+   font-family: Arial, sans-serif;
+   align-items: center;
+   width: 430px;
+   height: 932px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   background: linear-gradient(to bottom, #ff5151, #413dff);
+}
+
+button {
+  background-color: #ffafdb; /* Blue background */
+  color: white;             /* White text */
+  border-radius: 20px;        
+  border-color: #ffffff;            
+  padding: 10px 20px;       /* Spacing inside the button */
+  text-align: center;       /* Center text */
+  font-size: 16px;          /* Font size */
+  font-family: Impact, sans-serif;
+  margin-top: 670px;
+  border-radius: 25px;       /* Rounded corners */
+  cursor: pointer; 
+  z-index: 10;
+}
+
+button:hover {
+  background-color: #e23737; /* Darker blue on hover */
+}
+
+.startAnimation {
+  background-color: #a70000;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.container4 {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.animation-area {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+}
+
+.heart {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: #f20044;
+  box-shadow: -10px 10px 90px #f20044;
+  animation: heart 0.6s linear infinite;
+  margin-top: 75px;
+  margin-left: 175px;
+  z-index: 50;
+}
+
+.heart::before{
+  content: '';
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background: #f20044;
+  top: -50%;
+  border-radius: 35px;
+  box-shadow: -10px 10px 90px #f20044;
+}
+
+.heart::after{
+  content: '';
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background: #f20044;
+  right: 50%;
+  border-radius: 35px;
+  box-shadow: -10px 10px 90px #f20044;
+}
+
+  
+.fly-heart {
+  animation: fly 3s ease-in-out;
+}
+
+
+@keyframes fly {
+  0% {
+    transform: translate(0, 0);
+    transform: rotate(45deg);
+  }
+  20% {
+    transform: translate(120px, 100px);
+  }
+ 
+  40% {
+    transform: translate(-110px, 190px);
+  }
+
+  60% {
+  transform: translate(120px, 300px);
+  }
+  80% {
+    transform: translate(-110px, 350px);
+    }
+  100% {
+    transform: translate(110px, 430px);
+  }
+}
+
+.start-btn {
+  z-index: 10;
+}
+
+.rain-container {
+  position: fixed;
+  top: 0;
+  margin-left: px;
+  width: 400px; 
+  height: 932px;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+
+.raining-heart {
+  position: absolute;
+  width: 30px; /* Adjust size as needed */
+  height: 30px;
+  background-color: #ff0000;
+  transform: rotate(-45deg);
+  animation: fall 3s linear infinite;
+  z-index: 20;
+}
+
+.raining-heart::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #ff0000;
+  border-radius: 50%; /* Makes it circular */
+  top: -15px; /* Aligns the top circle */
+  left: 0;
+}
+
+.raining-heart::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #ff0000;
+  border-radius: 50%; /* Makes it circular */
+  left: 15px; /* Aligns the right circle */
+  top: 0;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100px) rotate(-45deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(-45deg);
+    opacity: 0;
+  }
+}
+
+.first-stop {
+  height: 70px;
+  border-radius: 7px;
+  margin-top: 150px;
+  margin-left: 90px;
+}
+
+.second-stop {
+  height: 70px;
+  border-radius: 7px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.third-stop {
+  height: 70px;
+  border-radius: 7px;
+  margin-top: 150px;
+  margin-left: 90px;
+}
+
+.forth-stop {
+  height: 70px;
+  border-radius: 7px;
+  margin-top: -30px;
+  margin-left: 15px;
+}
